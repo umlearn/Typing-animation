@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Typing</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <!--online use-->
+        <link rel="stylesheet" href="/Typing-animation/css/main.css">
+        <!-- local use-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <h1>Hi, I'm UMLEARN...</h1>
+
+        <h2>
+        I design and create <a href="#" id="typed"></a>
+        </h2>
+        <a class="cta" href="https://umlearn.tech">Find out more</a>
+        
+        <!--online use-->
+        <script src="/Typing-animation/js/jquery.js"></script>
+        <script src="/Typing-animation/js/typed.js"></script>
+        
+        <!-- local use-->
+        <script src="/js/jquery.js"></script>
+        <script src="/js/typed.js"></script>
+        <script>
+          //Typed
+          $("#typed").typed({
+            strings: [ "Dynamic Prototypes.", "Motion Graphic.", "Design System.", "User Interface.","Creative IT Solution."],
+            contentType: 'text',
+            typeSpeed: 60,
+            startDelay: 100,
+            backSpeed: 0,
+            backDelay: 1200,
+            loop: true,
+          });	
+        </script>
+    </body>
+</html>
+
